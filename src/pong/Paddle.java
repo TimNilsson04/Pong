@@ -8,7 +8,7 @@ public class Paddle {
     public Paddle(int x, int y, int width) {
         this.x = x;
         this.y = y;
-        this.width = width;
+        this.width = 5;
     }
 
     public void moveUp() {
@@ -27,5 +27,9 @@ public class Paddle {
 
     public int getWidth() {
         return width;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
